@@ -1,0 +1,9 @@
+set={1,2,2,3,4,4,4}
+print(set)
+a={2,4,4,6}
+b={6,7,8}
+print(a.difference(b))
+print(b.difference(a))
+print(a.symmetric_difference(b))
+print(a.union(b))
+print(a.intersection(b))
